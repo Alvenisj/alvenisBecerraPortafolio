@@ -87,6 +87,7 @@ body.dark {
     --bg-card-color: hsl(0, 0%, 20%); 
 }
 
+
 .header {
 
     display: flex;
@@ -94,7 +95,6 @@ body.dark {
     justify-content: space-between;
     height: 75px;
     padding: 0 2em;
-    background-color: var(--bg-card-color);
     transition: var(--transitionColor);
 }
 
@@ -110,8 +110,9 @@ body.dark {
     
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     cursor: pointer;
+
     
 }
 
@@ -190,6 +191,7 @@ body.dark {
 
 }
 .main {
+
     display: grid;
     padding: 0.2em;
     gap: 0.5em;
@@ -520,8 +522,10 @@ body.dark {
     border-radius: 8px;
     width: 30px;
     height: 30px;
+    justify-content: center;
+    align-items: center;
     line-height: 12px;
-    background-color: var(--primary-color);
+   
     
 }
 
@@ -738,10 +742,11 @@ body.dark {
 /*ESTILOS DE ESCRITORIO*/
 @media screen and (min-width: 760px) {
 
+
     .main {
     grid-template-columns: min-content 1fr;
    
-   }
+    }
 
    .column--right {
 
@@ -785,8 +790,18 @@ body.dark {
 }
 
 
+.footer {
+
+  margin-left: 500px;
+  
+}
+
+
 
 }
+
+
+
 
 
 
